@@ -7,7 +7,7 @@ p {
 }
 div {
   border: 1px solid;
-  text-align: center;
-  justify-content: center;
+  /* text-align: center;
+  justify-content: center; */
 
 }
