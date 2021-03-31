@@ -1,8 +1,10 @@
 @media (min-width : 480px)  and (max-width : 767px) {
+    
     body{
-        width: 480 px;
+        width: 482px;
         margin: auto;
     }  
+    
    .a{
         width: 480px;
         height: 75px;
@@ -11,17 +13,24 @@
     }
    .b{
         float: left;
+        /* display:inline-block; */
         width: 480px ;
         height: 150px;
         line-height: 150px;
     }
    .c,.d{
-        display: inline-block;
+       /* float: left; */
+       clear: both;
+        /* display: inline-block; */
         width: 480px;
         height: 125px;
         line-height: 125px;
        
         
+    }
+
+    .g {
+        clear:left ;
     }
    
    .e,.f,.g,.h{
@@ -29,13 +38,17 @@
         height: 250px;
         line-height: 250px;
         float: left;
+        /* display: inline-block; */
+        
     }
+    
     
    .i{
         width: 480px;
         height: 150px;
         line-height: 150px;
-        float: left;
+        /* float: left; */
+        display: inline-block;
        
    }
    .a ,.b ,.c , .d ,.e ,.f , .g , .h  {
