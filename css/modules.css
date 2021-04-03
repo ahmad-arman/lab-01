@@ -1,4 +1,4 @@
-@media (min-width : 767px)   {
+@media (min-width : 1024px)   {
     body{
         width: 960px;
         margin: auto;
@@ -74,4 +74,33 @@
    div {
     background-color: rgb(13, 121, 230);
   }
+
+  .a {
+    background-color: rgb(54, 15, 228);
+}
+  .b {
+    background-color: rgb(243, 13, 243);
+}
+  .c {
+    background-color: rgba(22, 180, 219, 0.315);
+}
+  .d {
+    background-color: rgb(161, 13, 180);
+}
+  .e {
+    background-color: rgb(186, 196, 189);
+}
+  .f {
+    background-color: rgb(16, 81, 165);
+}
+  .g {
+    background-color: rgba(201, 13, 28, 0.253);
+}
+  .h {
+    background-color: rgba(158, 16, 201, 0.658);
+}
+  .i {
+    background-color: rgb(64, 70, 77);
+}
+
 }
